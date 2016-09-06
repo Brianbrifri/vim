@@ -489,18 +489,18 @@ map <leader>nt :NERDTreeToggle<CR>
 " Airline {{{2
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme = 'powerlineish'
+let g:airline_theme = 'dark'
 " Tmuxline {{{2
 " let g:tmuxline_preset = 'powerline'
 " Promptline {{{2
-"let g:promptline_theme = 'powerlineish'
+let g:promptline_theme = 'powerlineish'
 " Rainbow Parens {{{2
-" nmap <leader>r :RainbowParenthesesToggle<CR>
-" au Syntax * RainbowParenthesesLoadRound
-" au Syntax * RainbowParenthesesLoadSquare
-" au Syntax * RainbowParenthesesLoadBraces
-" let g:rbpt_max = 16
-" let g:rbpt_loadcmd_toggle = 0
+nmap <leader>r :RainbowParenthesesToggle<CR>
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
+let g:rbpt_max = 16
+let g:rbpt_loadcmd_toggle = 0
 " Syntastic {{{2
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_loc_list_height = 5
@@ -530,7 +530,7 @@ endif
 " JsDoc {{{2
 nmap <silent> <leader>js <Plug>(jsdoc)
 " Git Gutter {{{2
-let g:gitgutter_enabled = 0
+let g:gitgutter_enabled = 1
 let g:gitgutter_highlight_lines = 1
 nmap <leader>gt :GitGutterToggle<cr>
 " Gist {{{2
