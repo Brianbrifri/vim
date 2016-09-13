@@ -84,7 +84,7 @@ set smartcase                         " Try and be smart about cases
 nnoremap j gj
 nnoremap k gk
 " Appearance {{{2
-" set number                          " Always show line numbers
+set number                            " Always show line numbers
 set numberwidth=3                     " Changed the width of line number columns
 set listchars=tab:\|\ ,trail:·,eol:¬  " Use new symbols for tabstops and EOLs
 set ts=2 sts=2 sw=2 expandtab         " Default tab stops
@@ -531,7 +531,7 @@ endif
 nmap <silent> <leader>js <Plug>(jsdoc)
 " Git Gutter {{{2
 let g:gitgutter_enabled = 1
-let g:gitgutter_highlight_lines = 1
+let g:gitgutter_highlight_lines = 0
 nmap <leader>gt :GitGutterToggle<cr>
 " Gist {{{2
 nmap <leader>gl :Gist -l<cr>
