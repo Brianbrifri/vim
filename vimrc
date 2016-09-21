@@ -71,6 +71,7 @@ set smartindent
 set hidden                             " Useful for auto setting hidden buffers
 syntax enable                          " Enable syntax highlighting
 set nostartofline                      " Don't reset cursor to start of line when moving around
+set breakindent
 set ttyfast
 set history=1000
 " Searching/Moving {{{2
