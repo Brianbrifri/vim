@@ -46,6 +46,7 @@ Plugin 'marcweber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
+Plugin 'flazz/vim-colorshemes'
 
 Plugin 'heavenshell/vim-jsdoc'
 Plugin 'evidens/vim-twig'
@@ -104,7 +105,7 @@ set laststatus=2                      " Always show the statusline
 set t_Co=256                          " Explicitly tell Vim that the terminal supports 256 colors
 " Colors and Theme {{{2
 set background=dark
-colorscheme badwolf
+colorscheme lyla
 
 " TODO: Get this working better
 "colorscheme gruvbox
