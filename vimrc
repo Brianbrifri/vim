@@ -39,14 +39,12 @@ Plugin 'mattn/emmet-vim'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'AndrewRadev/splitjoin.vim'
 Plugin 'gabesoft/vim-ags'
-Plugin 'flazz/vim-colorschemes'
 "Plugin 'junegunn/goyo.vim'
 
 Plugin 'marcweber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
-Plugin 'flazz/vim-colorshemes'
 
 Plugin 'heavenshell/vim-jsdoc'
 Plugin 'evidens/vim-twig'
@@ -100,7 +98,7 @@ set wildmode=longest:full,full
 set wildignore+=*.jpg,*.jpeg,*.gif,*.png,*.gif,*.psd,*.o,*.obj
 set wildignore+=*/smarty/*,*/vendor/*,*/node_modules/*,*/.hg/*,*/.svn/*,*/.sass-cache/*,*/log/*,*/tmp/*,*/build/*,*/ckeditor/*,*.DS_Store
 "set encoding=utf-8
-set cursorline                        " Highlight current line
+"set cursorline                        " Highlight current line
 set laststatus=2                      " Always show the statusline
 set t_Co=256                          " Explicitly tell Vim that the terminal supports 256 colors
 " Colors and Theme {{{2
